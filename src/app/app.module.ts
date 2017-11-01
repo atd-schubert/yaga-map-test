@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { YagaModule } from '@yaga/leaflet-ng2';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+        YagaModule,
+		BrowserModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
